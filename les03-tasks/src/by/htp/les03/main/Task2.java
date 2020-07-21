@@ -1,4 +1,4 @@
-package by.htp.les03.main;
+п»їpackage by.htp.les03.main;
 
 public class Task2 {
 
@@ -13,7 +13,7 @@ public class Task2 {
 				actualResultLength++;
 			}
 		}
-		System.out.print("В данной последовательности " + actualResultLength + " нулевых элементов на местах: ");
+		System.out.print("Р’ РґР°РЅРЅРѕР№ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚Рё " + actualResultLength + " РЅСѓР»РµРІС‹С… СЌР»РµРјРµРЅС‚РѕРІ РЅР° РјРµСЃС‚Р°С…: ");
 		for (int i = 0; i < actualResultLength; i++) {
 			System.out.print(result[i] + " ");
 		}

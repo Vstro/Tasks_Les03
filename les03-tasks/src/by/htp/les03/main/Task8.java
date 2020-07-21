@@ -1,4 +1,4 @@
-package by.htp.les03.main;
+п»їpackage by.htp.les03.main;
 
 import java.util.Random;
 
@@ -8,13 +8,13 @@ public class Task8 {
 		Random rand = new Random();
 		int[] sequence = new int[10];
 		
-		System.out.print("Вся последовательность: ");
+		System.out.print("Р’СЃСЏ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ: ");
 		for (int i = 0; i < sequence.length; i++) {
 			sequence[i] = rand.nextInt(10);
 			System.out.print(sequence[i] + " ");
 		}
 
-		System.out.print("\nЭлементы большие своего порядкового номера (начиная с 1): ");
+		System.out.print("\nР­Р»РµРјРµРЅС‚С‹ Р±РѕР»СЊС€РёРµ СЃРІРѕРµРіРѕ РїРѕСЂСЏРґРєРѕРІРѕРіРѕ РЅРѕРјРµСЂР° (РЅР°С‡РёРЅР°СЏ СЃ 1): ");
 		for (int i = 0; i < sequence.length; i++) {
 			if (sequence[i] > (i + 1)) {
 				System.out.print(sequence[i] + " ");

@@ -1,4 +1,4 @@
-package by.htp.les03.main;
+п»їpackage by.htp.les03.main;
 
 import java.util.Random;
 
@@ -23,11 +23,11 @@ public class Task5 {
 			}
 		}
 		
-		System.out.print("Последовательность: ");
+		System.out.print("РџРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ: ");
 		for (double x: sequence) {
 			System.out.printf("%.3f ", x);
 		}
-		System.out.print("\nДлина наименьшей оси, содержащей все числа последовательности: " + (max - min));
+		System.out.print("\nР”Р»РёРЅР° РЅР°РёРјРµРЅСЊС€РµР№ РѕСЃРё, СЃРѕРґРµСЂР¶Р°С‰РµР№ РІСЃРµ С‡РёСЃР»Р° РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚Рё: " + (max - min));
 	}
 
 }

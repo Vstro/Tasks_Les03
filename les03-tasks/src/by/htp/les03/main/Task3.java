@@ -1,4 +1,4 @@
-package by.htp.les03.main;
+п»їpackage by.htp.les03.main;
 
 import java.util.Random;
 
@@ -9,7 +9,7 @@ public class Task3 {
 		double[] sequence = new double[3];
 		boolean increaseFlag = true;
 		
-		System.out.print("Последовательность: ");
+		System.out.print("РџРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ: ");
 		for (int i = 0; i < 3; i++) {
 			sequence[i] = rand.nextDouble() * 100;
 			System.out.printf("%.3f ", sequence[i]);
@@ -23,9 +23,9 @@ public class Task3 {
 		}
 		
 		if (increaseFlag) {
-			System.out.println("\nПоследовательность является возрастающей!");
+			System.out.println("\nРџРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ СЏРІР»СЏРµС‚СЃСЏ РІРѕР·СЂР°СЃС‚Р°СЋС‰РµР№!");
 		} else {
-			System.out.println("\nПоследовательность не является возрастающей!");
+			System.out.println("\nРџРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ РЅРµ СЏРІР»СЏРµС‚СЃСЏ РІРѕР·СЂР°СЃС‚Р°СЋС‰РµР№!");
 		}
 	}
 

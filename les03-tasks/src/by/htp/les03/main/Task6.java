@@ -1,4 +1,4 @@
-package by.htp.les03.main;
+п»їpackage by.htp.les03.main;
 
 import java.util.Random;
 
@@ -10,7 +10,7 @@ public class Task6 {
 		Random rand = new Random();
 		double[] sequence = new double[5];
 		
-		System.out.print("Последовательность: ");
+		System.out.print("РџРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ: ");
 		for (int i = 0; i < sequence.length; i++) {
 			sequence[i] = rand.nextDouble() * 20 - 10;
 			System.out.printf("%.3f ", sequence[i]);
@@ -23,11 +23,11 @@ public class Task6 {
 			}
 		}
 		
-		System.out.print("\nПреобразованная последовательность: ");
+		System.out.print("\nРџСЂРµРѕР±СЂР°Р·РѕРІР°РЅРЅР°СЏ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ: ");
 		for (double x: sequence) {
 			System.out.printf("%.3f ", x);
 		}
-		System.out.print("\nКоличество замен: " + replaceCount);
+		System.out.print("\nРљРѕР»РёС‡РµСЃС‚РІРѕ Р·Р°РјРµРЅ: " + replaceCount);
 	}
 
 }

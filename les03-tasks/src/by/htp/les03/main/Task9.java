@@ -1,4 +1,4 @@
-package by.htp.les03.main;
+п»їpackage by.htp.les03.main;
 
 import java.util.Random;
 
@@ -12,7 +12,7 @@ public class Task9 {
 		Random rand = new Random();
 		double[] sequence = new double[N];
 		
-		System.out.print("Последовательность: ");
+		System.out.print("РџРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ: ");
 		for (int i = 0; i < sequence.length; i++) {
 			sequence[i] = rand.nextDouble() * 20 - 10;
 			System.out.printf("%.3f ", sequence[i]);
@@ -27,7 +27,7 @@ public class Task9 {
 				positives++;
 			}
 		}
-		System.out.print("\nПоложительных чисел: " + positives + "\nОтрицательных чисел: " + negatives + "\nНулей: " + zeros);
+		System.out.print("\nРџРѕР»РѕР¶РёС‚РµР»СЊРЅС‹С… С‡РёСЃРµР»: " + positives + "\nРћС‚СЂРёС†Р°С‚РµР»СЊРЅС‹С… С‡РёСЃРµР»: " + negatives + "\nРќСѓР»РµР№: " + zeros);
 	}
 
 }

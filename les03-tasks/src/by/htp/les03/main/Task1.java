@@ -1,4 +1,4 @@
-package by.htp.les03.main;
+п»їpackage by.htp.les03.main;
 
 public class Task1 {
 
@@ -12,7 +12,7 @@ public class Task1 {
 				sum += num;
 			}
 		}
-		System.out.println("Сумма элементов массива кратных " + K + ": " + sum);
+		System.out.println("РЎСѓРјРјР° СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР° РєСЂР°С‚РЅС‹С… " + K + ": " + sum);
 	}
 
 }

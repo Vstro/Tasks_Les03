@@ -1,4 +1,4 @@
-package by.htp.les03.main;
+п»їpackage by.htp.les03.main;
 
 public class Task4 {
 
@@ -14,9 +14,9 @@ public class Task4 {
 			}
 		}
 		if (actualResultLength == 0) {
-			System.out.println("В последовательности нет чётных чисел!");
+			System.out.println("Р’ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚Рё РЅРµС‚ С‡С‘С‚РЅС‹С… С‡РёСЃРµР»!");
 		} else {
-			System.out.print("Последовательность чётных чисел: ");
+			System.out.print("РџРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ С‡С‘С‚РЅС‹С… С‡РёСЃРµР»: ");
 			for (int i = 0; i < actualResultLength; i++) {
 				System.out.print(result[i] + " ");
 			}

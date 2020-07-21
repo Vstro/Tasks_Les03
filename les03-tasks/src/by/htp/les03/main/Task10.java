@@ -1,4 +1,4 @@
-package by.htp.les03.main;
+п»їpackage by.htp.les03.main;
 
 public class Task10 {
 
@@ -11,7 +11,7 @@ public class Task10 {
 				maxPair = sequence[i] + sequence[sequence.length - 1 - i];
 			}
 		}
-		System.out.print("Наибольшая пара: " + maxPair);
+		System.out.print("РќР°РёР±РѕР»СЊС€Р°СЏ РїР°СЂР°: " + maxPair);
 	}
 
 }
